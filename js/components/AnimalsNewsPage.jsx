@@ -3,17 +3,19 @@ import axios from "axios";
 import Link from "next/link";
 
 const AnimalNewsPage = () => {
-  const [articles, setArticles] = useState([]);
-  const url = `https://newsapi.org/v2/top-headlines?q=animal&category=science&apiKey=${process.env.API_KEY_NEWS}&language=en`;
+    const [articles, setArticles] = useState([]);
+
   useEffect(() => {
-    axios
-      .get(url)
-      .then((response) => {
+    const fetchArticles = async () => {
+      try {
+        const response = await axios.get("/api/news");
         setArticles(response.data.articles);
-      })
-      .catch((error) => {
+      } catch (error) {
         console.log(error);
-      });
+      }
+    };
+
+    fetchArticles();
   }, []);
 
   return (
