@@ -23,8 +23,8 @@ export default function InsertPage() {
 	return (
 		<section className="bg-white dark:bg-gray-900">
 			<div className="container px-6 py-10 mx-auto">
-				<h1 className="w-[500px] mx-auto text-center text-5xl">Learn about animals</h1>
-				<p className="w-[1000px] mx-auto text-center mt-4 text-3xl">This is an app that showcases useful information about animals</p>
+				<h1 className="w-[500px] mx-auto text-center text-5xl">Insert information</h1>
+				<p className="w-[1000px] mx-auto text-center mt-4 text-3xl">Here you can insert useful information about animals</p>
 
 				<form>
 					<div className="mb-6">
