@@ -59,6 +59,20 @@ Funcția postRecords permite adăugarea unei noi înregistrări în colecția Mo
 Funcția deleteRecord permite ștergerea unei înregistrări din colecția MongoDB, bazându-se pe id-ul înregistrării. Se utilizează metoda deleteOne a obiectului collection pentru a șterge înregistrarea cu id-ul specificat.
 Aceste metode sunt utilizate pentru a interacționa cu baza de date MongoDB și a efectua operațiuni CRUD asupra acesteia.
 
+4.	Capturi de ecran
+Pagina principală
+ 
+![image](https://github.com/MalinaG123/PrCloud/assets/91585928/9fe58a87-4291-40a2-ad29-10935444e6db)
+
+Pagina pentru inserarea noilor informații
+ 
+![image](https://github.com/MalinaG123/PrCloud/assets/91585928/e9da90f8-a3ec-4f96-8d91-dce063fea12f)
+
+
+Pagina de știri
+
+![image](https://github.com/MalinaG123/PrCloud/assets/91585928/3776ace4-1fcb-4fef-a942-9345251dd85c)
+
 5.	Referințe
 Link-ul public către aplicație: https://pr-cloud-evcu1ujkz-malinag123.vercel.app/
 Link GitHub: https://github.com/MalinaG123/PrCloud
